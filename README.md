@@ -1,4 +1,4 @@
-# Stream Plus - A YouTube Clone
+# Stream Pulse - A YouTube Clone
 
 Stream Plus is a modern YouTube clone application built using the powerful React ecosystem. This project aims to provide a feature-rich and user-friendly platform for streaming and discovering videos, leveraging the latest technologies and best practices in web development.
 
@@ -29,7 +29,7 @@ Stream Plus leverages the power of the React ecosystem to deliver a seamless and
 
 ## Getting Started
 
-To run Stream Plus locally, follow these steps:
+To run Stream Pulse locally, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/ayushsharma74/stream-pluse.git`
 2. Install dependencies: `npm install`
@@ -49,7 +49,7 @@ We welcome contributions from the community! If you'd like to contribute to Stre
 
 ## License
 
-Stream Plus is released under the [MIT License](https://opensource.org/licenses/MIT).
+Stream Pulse is released under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Acknowledgments
 
