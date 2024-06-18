@@ -1,6 +1,6 @@
 # Stream Pulse - A YouTube Clone
 
-Stream Plus is a modern YouTube clone application built using the powerful React ecosystem. This project aims to provide a feature-rich and user-friendly platform for streaming and discovering videos, leveraging the latest technologies and best practices in web development.
+Stream Pulse is a modern YouTube clone application built using the powerful React ecosystem. This project aims to provide a feature-rich and user-friendly platform for streaming and discovering videos, leveraging the latest technologies and best practices in web development.
 
 ## Features
 
@@ -15,7 +15,7 @@ Stream Plus is a modern YouTube clone application built using the powerful React
 
 ## Technologies Used
 
-Stream Plus leverages the power of the React ecosystem to deliver a seamless and modern user experience. Here are the key technologies used in this project:
+Stream Pulse leverages the power of the React ecosystem to deliver a seamless and modern user experience. Here are the key technologies used in this project:
 
 - **React**: The core library for building the user interface.
 - **React Router Dom**: Handles client-side routing for seamless navigation within the application.
