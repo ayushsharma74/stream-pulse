@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    scrollbar-color: #888 #fff;
+}
+
+.overflow-y-scroll,
+.hover\:overflow-y-scroll,
+.overflow-x-scroll,
+.hover\:overflow-x-scroll,
+.overflow-scroll,
+.hover\:overflow-scroll {
+    scrollbar-width: thin;
+}
+
+.tracking-word-wide{
+    word-spacing: 5px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    overflow: visible;
+
+    &:focus-within{
+        border: 1px solid #1c62b9;
+        border-left: none;
+        &::before{
+                content: "\ed1b";
+                height: calc(100% + 2px);
+                width: 3rem;
+                font-family: IcoFont;
+                position: absolute;
+                border: 1px solid #1c62b9;
+                border-right: none;
+                left: -2.7rem;
+                border-top-left-radius: 50%;
+                border-bottom-left-radius: 50%;
+                text-align: center;
+                line-height: calc(2.95rem - 4px);
+        }
+    }
+
+    
+
+    &::before {
+        content: "";
+        height: calc(100% + 2px);
+        width: 3rem;
+        position: absolute;
+        border: 1px solid #ccc;
+        border-right: none;
+        left: -1.3rem;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+    }
+
+    & i.icofont-close-line{
+        /* display: none; */
+        font-size: 1.5rem;
+        position: absolute;
+        right: 0.5rem;
+    }
+    & input{
+        padding-right: 2.2rem;
+    }
+
+}
+
+.search-icon i.icofont-search {
+    height: calc(2.5rem + 1px);
+}
+
+.active{
+    font-weight: 500;
+    background: #0001;
+}
+
+.flip{
+    transform: rotateY(180deg);
+}
+.turn-around {
+    transform: rotateY(180deg) rotateZ(45deg);
+}
